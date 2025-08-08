@@ -1,0 +1,48 @@
+{
+  "id": "did:web:ricohimmersionexperience.co.uk",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:ricohimmersionexperience.co.uk"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://ricohimmersionexperience.co.uk/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/bc253073-688c-4fa3-9cd8-c7a1cef2a5e5"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#bdb6aa0de8154457b27cf4cd0ce82830vcSigningKey-8b822",
+      "controller": "did:web:ricohimmersionexperience.co.uk",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "l3BCNwy2idS877upMi5yJMdCfPpcVC8NcfFWJsiZRb8",
+        "y": "7ckL2zP-OADnXi1cavdXw07kJexZIyqvCYmI-T1Qd6o"
+      }
+    }
+  ],
+  "authentication": [
+    "#bdb6aa0de8154457b27cf4cd0ce82830vcSigningKey-8b822"
+  ],
+  "assertionMethod": [
+    "#bdb6aa0de8154457b27cf4cd0ce82830vcSigningKey-8b822"
+  ]
+}

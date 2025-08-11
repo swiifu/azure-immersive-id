@@ -28,21 +28,21 @@
   ],
   "verificationMethod": [
     {
-      "id": "#e460696d478842478b32d8869e38610fvcSigningKey-3a0a6",
+      "id": "#578a621e05f44bc49ab57bec1d38f9a4vcSigningKey-4a438",
       "controller": "did:web:ricohimmersionexperience.co.uk",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "crv": "P-256",
         "kty": "EC",
-        "x": "QRsMofqe87tPbduH9xL9fsobYD1P17WcoqCHJr6gdLM",
-        "y": "LU0XRx_wFXPg_r0Eu8EeZyOLSlpqYWGUFkiKKIpoLJs"
+        "x": "ns10UJRd7QgVMqx0s7iip8E-OZOo5_SFAIdvzG4L5RM",
+        "y": "MdbhGlc4nnv3j4_-GSq7HmEmFENbkbmry2BCGXz-kTc"
       }
     }
   ],
   "authentication": [
-    "#e460696d478842478b32d8869e38610fvcSigningKey-3a0a6"
+    "#578a621e05f44bc49ab57bec1d38f9a4vcSigningKey-4a438"
   ],
   "assertionMethod": [
-    "#e460696d478842478b32d8869e38610fvcSigningKey-3a0a6"
+    "#578a621e05f44bc49ab57bec1d38f9a4vcSigningKey-4a438"
   ]
 }
